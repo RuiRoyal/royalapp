@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const startApp = () => {
+
+  // reactDom Aqui dentro
+
+  if(window.cordova) {
+    document.addEventListener('deviceready', startApp, false);
+  } else {
+    startApp()
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
