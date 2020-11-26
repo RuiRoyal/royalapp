@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+.backgroundContainer {
+    background: linear-gradient(0deg, rgba(176,19,99,1) 35%, rgba(8,74,158,1) 100%);
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
